@@ -1,0 +1,59 @@
+/*body {*/
+    /*font-family: "Comic Sans MS";*/
+    /*background: cornsilk;*/
+
+/*}*/
+/*h1 {*/
+    /*color: blue;*/
+    /*text-align: center;*/
+/*}*/
+/*div.sign_up{*/
+    /*display: none;*/
+/*}*/
+
+
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form*/
+input[type=text],[type=password]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    align-items:center;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    margin: 8px 0;
+    background-color: blue;
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    align-items:center;
+    cursor: pointer;
+
+}
+
+form.sign_up input.button {
+    background-color: green;
+}
+
+input[type=submit] :hover {
+    opacity: 0.8;
+}
+/*refer end*/
+
+div.ask_status p,a {
+    display: inline-block;
+}
+.sign_up,.sign_in {
+    text-align: center;
+    margin-left: auto;
+    vertical-align: middle;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
